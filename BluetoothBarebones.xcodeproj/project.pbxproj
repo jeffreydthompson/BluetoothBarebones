@@ -11,6 +11,10 @@
 		97D60CC728D479C700B5C5EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D60CC628D479C700B5C5EA /* ContentView.swift */; };
 		97D60CC928D479C800B5C5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D60CC828D479C800B5C5EA /* Assets.xcassets */; };
 		97D60CCC28D479C800B5C5EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D60CCB28D479C800B5C5EA /* Preview Assets.xcassets */; };
+		97D60CD328D479D900B5C5EA /* BTController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D60CD228D479D900B5C5EA /* BTController.swift */; };
+		97D60CD528D47F0500B5C5EA /* AdvertisementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D60CD428D47F0500B5C5EA /* AdvertisementData.swift */; };
+		97D60CD728D4866800B5C5EA /* Data+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D60CD628D4866800B5C5EA /* Data+Strings.swift */; };
+		97D60CD928D82FC500B5C5EA /* JSONSerialization+withBLEAdvData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D60CD828D82FC500B5C5EA /* JSONSerialization+withBLEAdvData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		97D60CC628D479C700B5C5EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97D60CC828D479C800B5C5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97D60CCB28D479C800B5C5EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97D60CD228D479D900B5C5EA /* BTController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTController.swift; sourceTree = "<group>"; };
+		97D60CD428D47F0500B5C5EA /* AdvertisementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementData.swift; sourceTree = "<group>"; };
+		97D60CD628D4866800B5C5EA /* Data+Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Strings.swift"; sourceTree = "<group>"; };
+		97D60CD828D82FC500B5C5EA /* JSONSerialization+withBLEAdvData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONSerialization+withBLEAdvData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				97D60CC628D479C700B5C5EA /* ContentView.swift */,
 				97D60CC828D479C800B5C5EA /* Assets.xcassets */,
 				97D60CCA28D479C800B5C5EA /* Preview Content */,
+				97D60CD228D479D900B5C5EA /* BTController.swift */,
+				97D60CD828D82FC500B5C5EA /* JSONSerialization+withBLEAdvData.swift */,
+				97D60CD428D47F0500B5C5EA /* AdvertisementData.swift */,
+				97D60CD628D4866800B5C5EA /* Data+Strings.swift */,
 			);
 			path = BluetoothBarebones;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D60CD728D4866800B5C5EA /* Data+Strings.swift in Sources */,
+				97D60CD328D479D900B5C5EA /* BTController.swift in Sources */,
 				97D60CC728D479C700B5C5EA /* ContentView.swift in Sources */,
 				97D60CC528D479C700B5C5EA /* BluetoothBarebonesApp.swift in Sources */,
+				97D60CD928D82FC500B5C5EA /* JSONSerialization+withBLEAdvData.swift in Sources */,
+				97D60CD528D47F0500B5C5EA /* AdvertisementData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +283,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BluetoothBarebones/Preview Content\"";
-				DEVELOPMENT_TEAM = PL89YQEG87;
+				DEVELOPMENT_TEAM = 87QXN3F9B7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth Please";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,9 +313,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BluetoothBarebones/Preview Content\"";
-				DEVELOPMENT_TEAM = PL89YQEG87;
+				DEVELOPMENT_TEAM = 87QXN3F9B7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth Please";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

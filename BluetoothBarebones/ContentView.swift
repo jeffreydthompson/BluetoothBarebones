@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var btController = BTController()
+    
+    init() {
+        btController.enable()
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Scan BLE") {
+            btController.startScanning()
+        }
     }
 }
 
